@@ -1,0 +1,25 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+	background-color: #c0c0c0;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
+
+#header > h1 {
+	margin-top: 0;
+}
+
+#search-term {
+	text-align: center;
+}
+
+#search-results > p {
+	background-color: #99dfdf;
+	border: 1px solid #fff;
+	color: #000;
+	text-align: center;
+}
