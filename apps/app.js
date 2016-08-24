@@ -28,7 +28,7 @@ function getResults(searchTerm) {
 function showResults(items) {
 	var html = "";
 	$.each(items, function(index, value) {
-		html += '<p><a href="https://www.youtube.com/watch?v=' + value.id.videoId + '"><img src=' + value.snippet.thumbnails.default.url + '></a><br>' + value.snippet.title + '<br>' + value.snippet.publishedAt +'</p>';
+		html += '<p><a href="https://www.youtube.com/watch?v=' + value.id.videoId + '"target="_blank""><img src=' + value.snippet.thumbnails.default.url + '></a><br>' + value.snippet.title + '<br>' + value.snippet.publishedAt +'</p>';
 		console.log(value.snippet.title);
 		console.log(value.snippet.publishedAt);
 	});
